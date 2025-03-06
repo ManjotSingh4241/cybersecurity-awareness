@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { database } from "../firebase"; // Import Firebase
 import { ref, get, set } from "firebase/database";
 
-const QuizA = () => {
+const QuizB = () => {
   const [questions, setQuestions] = useState([]); // Ensure it starts as an empty array
   const [userAnswers, setUserAnswers] = useState({});
   const [score, setScore] = useState(null);
@@ -49,7 +49,7 @@ const QuizA = () => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const quizRef = ref(database, "quizzes");
+        const quizRef = ref(database, "quizzest");
         const snapshot = await get(quizRef);
         if (snapshot.exists()) {
           const data = snapshot.val();
@@ -112,7 +112,7 @@ const QuizA = () => {
   return (
     <div className="container mt-5">
       <Navbar />
-      <h1 className="text-center mb-4">Phishing Quiz</h1>
+      <h1 className="text-center mb-4">IOT Quiz</h1>
   
       <div style={{ maxHeight: "70vh", overflowY: "auto", paddingRight: "10px" }}>
         {loading && <p className="text-center">Loading questions...</p>}
@@ -159,4 +159,4 @@ const QuizA = () => {
   
 };
 
-export default QuizA;
+export default QuizB;
