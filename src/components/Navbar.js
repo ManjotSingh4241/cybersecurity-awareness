@@ -55,9 +55,14 @@ const Navbar = () => {
               }}
             >
               <Dropdown.Item href="/Phishing">Phishing</Dropdown.Item>
-              <Dropdown.Item href="/ArtficialIntelligence">Artificial Intelligence</Dropdown.Item>
+              <Dropdown.Item href="/ArtficialIntelligence">
+                Artificial Intelligence
+              </Dropdown.Item>
               <Dropdown.Item href="/IOT">Internet Of Things</Dropdown.Item>
-              <Dropdown.Item href="/CyberSecurityAwareness">Cybersecurity Governence</Dropdown.Item>
+              <Dropdown.Item href="/CyberSecurityAwareness">
+                Cybersecurity Governence
+              </Dropdown.Item>
+              <Dropdown.Item href="/Keyloggers">Keyloggers</Dropdown.Item>
             </DropdownButton>
             {/* ********************************************************************************************************************** */}
             {/* <li className="nav-item">
@@ -75,10 +80,13 @@ const Navbar = () => {
                 margin: " 0 0 0 10px",
               }}
             >
-              <Dropdown.Item href="/QuizA">Quiz 1</Dropdown.Item>
-              <Dropdown.Item href="/QuizB">Quiz 2</Dropdown.Item>
-              <Dropdown.Item href="/QuizC">Quiz 3</Dropdown.Item>
-              <Dropdown.Item href="/QuizD">Quiz 4</Dropdown.Item>
+              <Dropdown.Item href="/QuizA">Quiz 1 (Phishing)</Dropdown.Item>
+              <Dropdown.Item href="/QuizB">
+                Quiz 2 (Artficial Intelligence)
+              </Dropdown.Item>
+              <Dropdown.Item href="/QuizC">Quiz 3 (IOT)</Dropdown.Item>
+              <Dropdown.Item href="/QuizD">Quiz 4 (CyberSecurity Awareness)</Dropdown.Item>
+              <Dropdown.Item href="/QuizE">Quiz 5 (Keyloggers)</Dropdown.Item>
             </DropdownButton>
           </ul>
 
