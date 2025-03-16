@@ -49,7 +49,7 @@ const QuizE = () => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const quizRef = ref(database, "quizzest");
+        const quizRef = ref(database, "quizzesfv");
         const snapshot = await get(quizRef);
         if (snapshot.exists()) {
           const data = snapshot.val();
@@ -112,7 +112,7 @@ const QuizE = () => {
   return (
     <div className="container mt-5">
       <Navbar />
-      <h1 className="text-center mb-4">IOT Quiz</h1>
+      <h1 className="text-center mb-4">Keyloggers</h1>
   
       <div style={{ maxHeight: "70vh", overflowY: "auto", paddingRight: "10px" }}>
         {loading && <p className="text-center">Loading questions...</p>}
