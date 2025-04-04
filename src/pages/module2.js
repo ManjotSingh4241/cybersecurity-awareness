@@ -43,59 +43,66 @@ const ArtficialIntelligence = () => {
               helps security professionals by:
             </blockquote>
             <ol className="list-group">
-            <li className="list-group-item bg-light border-0 shadow-sm mb-2 p-3 rounded text-center">
-              <div className="ms-2 me-auto">
-                <div className="fw-bold text-center">Recognizing Patterns</div>
-                <p className="text-center">
-                  AI can detect hidden patterns in complex data that might go
-                  unnoticed by humans. This helps security teams analyze and
-                  understand potential threats more effectively.
-                </p>
-              </div>
-            </li>
-            <li className="list-group-item bg-light border-0 shadow-sm mb-2 p-3 rounded text-center">
-              <div className="ms-2 me-auto">
-                <div className="fw-bold text-center">Providing Actionable Insights</div>
-                <p className="text-center">
-                  AI offers recommendations based on the patterns it identifies,
-                  guiding security professionals on how to respond to threats.
-                </p>
-              </div>
-            </li>
-            <li className="list-group-item bg-light border-0 shadow-sm mb-2 p-3 rounded text-center">
-              <div className="ms-2 me-auto">
-                <div className="fw-bold text-center">Taking Automated Action</div>
-                <p className="text-center">
-                  Some AI-driven systems can act on their own to fix security
-                  issues, reducing response time and minimizing potential
-                  damage. Even with skilled cybersecurity professionals and
-                  advanced tools in place, AI adds an extra layer of protection.
-                  One major benefit is its ability to scan source code
-                  accurately, reducing false positives and helping engineers
-                  find security flaws before software is deployed.
-                </p>
-              </div>
-            </li>
-          </ol> 
+              <li className="list-group-item bg-light border-0 shadow-sm mb-2 p-3 rounded text-center">
+                <div className="ms-2 me-auto">
+                  <div className="fw-bold text-center">
+                    Recognizing Patterns
+                  </div>
+                  <p className="text-center">
+                    AI can detect hidden patterns in complex data that might go
+                    unnoticed by humans. This helps security teams analyze and
+                    understand potential threats more effectively.
+                  </p>
+                </div>
+              </li>
+              <li className="list-group-item bg-light border-0 shadow-sm mb-2 p-3 rounded text-center">
+                <div className="ms-2 me-auto">
+                  <div className="fw-bold text-center">
+                    Providing Actionable Insights
+                  </div>
+                  <p className="text-center">
+                    AI offers recommendations based on the patterns it
+                    identifies, guiding security professionals on how to respond
+                    to threats.
+                  </p>
+                </div>
+              </li>
+              <li className="list-group-item bg-light border-0 shadow-sm mb-2 p-3 rounded text-center">
+                <div className="ms-2 me-auto">
+                  <div className="fw-bold text-center">
+                    Taking Automated Action
+                  </div>
+                  <p className="text-center">
+                    Some AI-driven systems can act on their own to fix security
+                    issues, reducing response time and minimizing potential
+                    damage. Even with skilled cybersecurity professionals and
+                    advanced tools in place, AI adds an extra layer of
+                    protection. One major benefit is its ability to scan source
+                    code accurately, reducing false positives and helping
+                    engineers find security flaws before software is deployed.
+                  </p>
+                </div>
+              </li>
+            </ol>
           </div>
         </div>
       </div>
 
       <div className="container my-4">
-      <div className="card shadow-sm border-0">
-        <div className="card-body p-4">
-          <p className="text-muted mb-0">
-            AI also plays a critical role in incident response. It not only
-            detects threats but also provides detailed context about them,
-            enabling security teams to respond quickly and efficiently. By
-            integrating AI into cybersecurity strategies, organizations can
-            proactively detect and mitigate threats, improving their overall
-            security posture and staying ahead of cybercriminals in an
-            ever-evolving digital world.
-          </p>
+        <div className="card shadow-sm border-0">
+          <div className="card-body p-4">
+            <p className="text-muted mb-0">
+              AI also plays a critical role in incident response. It not only
+              detects threats but also provides detailed context about them,
+              enabling security teams to respond quickly and efficiently. By
+              integrating AI into cybersecurity strategies, organizations can
+              proactively detect and mitigate threats, improving their overall
+              security posture and staying ahead of cybercriminals in an
+              ever-evolving digital world.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 };
