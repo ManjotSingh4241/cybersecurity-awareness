@@ -12,6 +12,9 @@ import Cloudsecurity from "./pages/module6";
 import Socialengineering from "./pages/module7"
 import DigitalSupplyChainSecurity from "./pages/module8";
 
+import ITNewsPage from "./pages/news"
+import Feedback from "./pages/feedback";
+
 
 import QuizA from "./pages/quiza";
 import QuizB from "./pages/quizb";
@@ -38,6 +41,10 @@ function App() {
         <Route path="/Cloudsecurity" element={<Cloudsecurity />} />
         <Route path="/Socialengineering" element={<Socialengineering />} />
         <Route path="/DigitalSupplyChainSecurity" element={<DigitalSupplyChainSecurity/>} />
+
+        <Route path="/ITNewsPage" element={<ITNewsPage/>}/>
+        <Route path="/Feedback" element={<Feedback/>}/>
+
 
 
         <Route path="/QuizA" element={<QuizA />} />

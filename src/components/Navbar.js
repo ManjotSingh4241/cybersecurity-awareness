@@ -94,6 +94,16 @@ const Navbar = () => {
               <Dropdown.Item href="/QuizG">Quiz 7 (Social Engineering)</Dropdown.Item>
               <Dropdown.Item href="/QuizH">Quiz 8 (Digital Supply Chain Security)</Dropdown.Item>
             </DropdownButton>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="/ITNewsPage">
+                NEWS
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="/Feedback">
+                Feedback
+              </a>
+            </li>
           </ul>
 
           <img
